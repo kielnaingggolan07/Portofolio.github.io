@@ -1,0 +1,92 @@
+@import url(reset.css);
+ body{  
+   font-family: Arial, Helvetica, sans-serif;  
+   background-image: url(img1/background.jpg);  
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position-y: 100%;
+ }  
+ .container{  
+   width: 1000px;  
+   height: 1500px;  
+   margin :0 auto;  
+   padding : 100px 0; 
+    
+ } 
+  
+ .foto img {  
+   display: block;  
+   margin : 0 auto;  
+   background: rgb(135,206,250);  
+   background: linear-gradient(180deg, rgba(247, 244, 243, 0) 50%, rgb(248, 248, 248) 100%);  
+   border-radius: 50%; 
+   width: 350px;  
+   border: 5px solid #eee5e1;
+ }  
+
+ h1.name {  
+   font-size: 35px;  
+   font-weight: bold;  
+   text-align: center;  
+   margin-top: 30px;  
+   margin-bottom: 50px;  
+ }
+   
+ .tabel h2{  
+   font-weight: bold;  
+   font-size: 25px;  
+   margin-left: 45%;  
+ }  
+
+ .tabel table{  
+   font-size: 20px;  
+   margin-top: 20px;  
+   width: 100%;  
+ }
+
+ .create-bold{  
+   font-weight: bold;  
+ }  
+ table tr:nth-child(odd){  
+   background-color: #92caf0;    
+ }  
+ table tr:nth-child(even){  
+   background-color: #a8cfe6;  
+ }  
+ table,thead,th, tr,td{  
+   padding: 10px;    
+ }  
+
+ .tabel{  
+   background-color: #a8cfe6;   
+   padding: 30px;  
+   padding-bottom: 20px;  
+   border-radius: 20px;  
+   margin-bottom: 50px;  
+ }  
+
+
+ .lanjut p{  
+   font-size: 15px;  
+   text-align: center;  
+   font-weight: bold;
+   color: rgb(12, 27, 235);
+ }  
+
+ .lanjut button{  
+   display: block;  
+   margin: 10px auto;  
+   font-size: 15px;  
+   border-radius: 10px;  
+   background-color: #a8cfe6;  
+   padding : 10px 30px;  
+   border-width: 0px;  
+   box-shadow: 0px 5px 5px #4CAF50;  
+   font-weight: bold;
+ }  
+ 
+ button:hover {  
+   background-color: #4CAF50;  
+   color: white;  
+ }  
